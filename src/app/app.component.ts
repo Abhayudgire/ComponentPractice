@@ -12,5 +12,4 @@ export class AppComponent {
   addFevroit() {
     this.isActive = !this.isActive;
   }
-
 }
