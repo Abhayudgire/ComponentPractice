@@ -1,0 +1,19 @@
+<div class="container">
+  <h3>Bellow is the Contact List</h3>
+   <table class="table">
+    <thead>
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let contact of contacts">
+        <td>{{contact.name}}</td>
+        <td>{{contact.contactNumber}}</td>
+        <td>{{contact.email}}</td>
+      </tr>
+    </tbody>
+    </table>
+</div>
