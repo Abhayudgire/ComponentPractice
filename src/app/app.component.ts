@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  isActive =  false;
+  title = 'Lorem Ipsum is simply dummy text of the printing';
+
+  addFevroit() {
+    this.isActive = !this.isActive;
+  }
+
 }
